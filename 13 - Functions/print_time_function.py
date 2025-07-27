@@ -3,7 +3,8 @@ import datetime
 # This function will print the message and current time
 def print_time():
     print('task completed')
-    print(datetime.datetime.now())
+    print(datetime.datetime.now(datetime))
+    print(datetime.date.day)
     print() 
 
 first_name = 'Susan'
